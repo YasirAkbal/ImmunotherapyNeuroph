@@ -34,7 +34,7 @@ public class SinirAgi{
     private double[] hatalar;
     private final double learningRate = 0.2;
     private final double momentum = 0.7;
-    private final int maksEpoch = 80000;
+    private final int maksEpoch = 800;
     private final int[] katmanlar = new int[]{4,4,1};
     
     public SinirAgi()
